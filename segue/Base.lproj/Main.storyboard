@@ -36,7 +36,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6H-AT-gjQ">
-                                <rect key="frame" x="112" y="66" width="191" height="21"/>
+                                <rect key="frame" x="48" y="66" width="319" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -49,9 +49,9 @@
                             <constraint firstItem="ns1-h1-udM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="127" id="QrK-Nw-0jr"/>
                             <constraint firstItem="S6H-AT-gjQ" firstAttribute="top" secondItem="ns1-h1-udM" secondAttribute="bottom" constant="8" id="Vbt-RV-wRX"/>
                             <constraint firstItem="yZf-WQ-sdv" firstAttribute="top" secondItem="S6H-AT-gjQ" secondAttribute="bottom" constant="8" id="gth-B3-je3"/>
-                            <constraint firstItem="S6H-AT-gjQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="92" id="lX8-Xs-dA0"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="S6H-AT-gjQ" secondAttribute="trailing" constant="91" id="occ-gt-o5k"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="S6H-AT-gjQ" secondAttribute="trailing" constant="27" id="oAO-lT-XUe"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yZf-WQ-sdv" secondAttribute="trailing" constant="149" id="piK-BW-dCh"/>
+                            <constraint firstItem="S6H-AT-gjQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="28" id="qlM-Ls-6dC"/>
                             <constraint firstItem="ns1-h1-udM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="scf-Uc-AlA"/>
                         </constraints>
                     </view>
@@ -76,27 +76,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VlZ-ae-HPY">
-                                <rect key="frame" x="192" y="57" width="31" height="30"/>
-                                <state key="normal" title="戻る"/>
-                                <connections>
-                                    <segue destination="0qL-1D-9TO" kind="unwind" unwindAction="unwind:" id="dTu-Kb-hfs"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bM0-1w-gGl">
                                 <rect key="frame" x="102" y="28" width="210" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VlZ-ae-HPY">
+                                <rect key="frame" x="176" y="57" width="62" height="99"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <segue destination="0qL-1D-9TO" kind="unwind" unwindAction="unwind:" id="dTu-Kb-hfs"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="VlZ-ae-HPY" firstAttribute="top" secondItem="bM0-1w-gGl" secondAttribute="bottom" constant="8" id="8P2-Vv-SSY"/>
-                            <constraint firstItem="VlZ-ae-HPY" firstAttribute="leading" secondItem="zsf-tn-vgi" secondAttribute="leadingMargin" constant="172" id="Dd6-wt-R3T"/>
+                            <constraint firstItem="VlZ-ae-HPY" firstAttribute="top" secondItem="bM0-1w-gGl" secondAttribute="bottom" constant="8" id="BdP-Cr-87f"/>
+                            <constraint firstItem="oqm-1x-yb5" firstAttribute="top" secondItem="VlZ-ae-HPY" secondAttribute="bottom" constant="580" id="KsA-0X-4lR"/>
                             <constraint firstItem="bM0-1w-gGl" firstAttribute="leading" secondItem="zsf-tn-vgi" secondAttribute="leadingMargin" constant="82" id="Lca-C9-KBN"/>
+                            <constraint firstItem="VlZ-ae-HPY" firstAttribute="leading" secondItem="zsf-tn-vgi" secondAttribute="leadingMargin" constant="156" id="PHT-fw-yMs"/>
                             <constraint firstItem="bM0-1w-gGl" firstAttribute="top" secondItem="8ch-Ge-RgZ" secondAttribute="bottom" constant="8" id="TyP-fG-Eut"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="VlZ-ae-HPY" secondAttribute="trailing" constant="171" id="b7Q-Mv-4Me"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VlZ-ae-HPY" secondAttribute="trailing" constant="156" id="pHY-kj-S2i"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bM0-1w-gGl" secondAttribute="trailing" constant="82" id="y3Y-UG-XMe"/>
                         </constraints>
                     </view>
