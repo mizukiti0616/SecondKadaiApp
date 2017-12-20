@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "187EA57A1FE7F00300A9FBFC"
-               BuildableName = "segue.app"
-               BlueprintName = "segue"
-               ReferencedContainer = "container:segue.xcodeproj">
+               BuildableName = "SecondKadaiApp.app"
+               BlueprintName = "SecondKadaiApp"
+               ReferencedContainer = "container:SecondKadaiApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "187EA58E1FE7F00300A9FBFC"
-               BuildableName = "segueTests.xctest"
-               BlueprintName = "segueTests"
-               ReferencedContainer = "container:segue.xcodeproj">
+               BuildableName = "SecondKadaiAppTests.xctest"
+               BlueprintName = "SecondKadaiAppTests"
+               ReferencedContainer = "container:SecondKadaiApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "187EA5991FE7F00300A9FBFC"
-               BuildableName = "segueUITests.xctest"
-               BlueprintName = "segueUITests"
-               ReferencedContainer = "container:segue.xcodeproj">
+               BuildableName = "SecondKadaiAppUITests.xctest"
+               BlueprintName = "SecondKadaiAppUITests"
+               ReferencedContainer = "container:SecondKadaiApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "187EA57A1FE7F00300A9FBFC"
-            BuildableName = "segue.app"
-            BlueprintName = "segue"
-            ReferencedContainer = "container:segue.xcodeproj">
+            BuildableName = "SecondKadaiApp.app"
+            BlueprintName = "SecondKadaiApp"
+            ReferencedContainer = "container:SecondKadaiApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "187EA57A1FE7F00300A9FBFC"
-            BuildableName = "segue.app"
-            BlueprintName = "segue"
-            ReferencedContainer = "container:segue.xcodeproj">
+            BuildableName = "SecondKadaiApp.app"
+            BlueprintName = "SecondKadaiApp"
+            ReferencedContainer = "container:SecondKadaiApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "187EA57A1FE7F00300A9FBFC"
-            BuildableName = "segue.app"
-            BlueprintName = "segue"
-            ReferencedContainer = "container:segue.xcodeproj">
+            BuildableName = "SecondKadaiApp.app"
+            BlueprintName = "SecondKadaiApp"
+            ReferencedContainer = "container:SecondKadaiApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
